@@ -1,6 +1,6 @@
 <template>
   <!-- Background -->
-  <div style="background-color:DodgerBlue" >
+  <div :class="darkMode() ? 'darkBG' : 'lightBG'">
     <!--
       Particles
       Documentation : https://vue-particles.netlify.app/
