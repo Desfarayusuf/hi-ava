@@ -1,6 +1,6 @@
 <template>
   <!-- Background -->
-  <div>
+  <div style="background-color:DodgerBlue" >
     <!--
       Particles
       Documentation : https://vue-particles.netlify.app/
