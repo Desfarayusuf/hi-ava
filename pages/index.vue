@@ -11,10 +11,10 @@
       clickMode="push"
       linesColor="#dedede"
       shapeType="circle"
-      :color="darkMode() ? '#f5f5f5' : '#171717'"
+      :color="darkMode() ? '#f5f5f5' : '#e89797'"
       :particleOpacity="0.7"
       :particlesNumber="100"
-      :particleSize="6"
+      :particleSize="10"
       :linesWidth="1"
       :lineLinked="true"
       :lineOpacity="0.4"
@@ -88,7 +88,7 @@ if (process.browser) {
       let el = document.createElement("div");
 
       // Fill with ♥
-      el.innerHTML = `<h1>${random(["♥", "♥♥", "♥♥♥"])}</h1>`;
+      el.innerHTML = `<h1>${random(["☪", "☪☪", "☪☪☪"])}</h1>`;
 
       // Add "popup" class
       el.classList.add("popup");
