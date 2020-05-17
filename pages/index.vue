@@ -13,19 +13,19 @@
       shapeType="circle"
       :color="darkMode() ? '#f5f5f5' : '#171717'"
       :particleOpacity="0.7"
-      :particlesNumber="70"
+      :particlesNumber="150"
       :particleSize="6"
       :linesWidth="1"
       :lineLinked="true"
       :lineOpacity="0.4"
       :linesDistance="150"
-      :moveSpeed="3"
+      :moveSpeed="10"
       :hoverEffect="true"
       :clickEffect="true"
     />
 
-    <!-- Audio file -->
-    <audio src="~/assets/music.mp3" autoplay controls loop />
+    <!-- Audio file 
+    <audio src="~/assets/music.mp3" autoplay controls loop />-->
 
     <!-- Main -->
     <div class="main">
