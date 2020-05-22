@@ -38,7 +38,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() +  '! ^5000', 'Saya mohon Maaf lahir dan batin', 'Semoga kita dapat menjadi' , 'pribadi yang lebih baik kedepanya ^2500', 'Dan dapat membahagiakan orang - orang disekitar kita']"
+        :strings="[greetings() +  '!', 'Saya mohon Maaf lahir dan batin', 'Semoga kita dapat menjadi' , 'pribadi yang lebih baik kedepannya ', 'Dan dapat membahagiakan orang - orang disekitar kita']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
