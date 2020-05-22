@@ -24,8 +24,8 @@
       :clickEffect="true"
     />
 
-    <!-- Audio file 
-    <audio src="~/assets/music.mp3" autoplay controls loop />-->
+    <!-- Audio file -->
+    <audio src="~/assets/music.mp3" autoplay controls loop />
 
     <!-- Main -->
     <div class="main">
